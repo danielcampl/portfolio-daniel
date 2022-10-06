@@ -3,7 +3,7 @@ import React from "react";
 import MyAvatar from '../assets/avatar/MyAvatar.png';
 import '../CSS/AvatarContainer.css';
 
-export default function HomePage() {
+export default function AvatarContainer() {
     return (
       <a rel="home" href="/">
         <div className="home-icon">
