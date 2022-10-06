@@ -26,6 +26,12 @@ a:-webkit-any-link {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  position: fixed;
+  z-index: 2;
+  lefT: 0;
+  top: 0;
+  right: auto;
+  bottom: 0;
 }
 
 /* HOME-LINK */
