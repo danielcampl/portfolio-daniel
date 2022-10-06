@@ -1,11 +1,11 @@
 import React from "react";
 
-export default class Home extends React.Component {
-  render() {
+import Menu from "../components/Menu";
+
+export default function Home() {
     return (
       <div>
-        <h1>Test Component</h1>
+        <Menu />
       </div>
     );
-  }
 }
