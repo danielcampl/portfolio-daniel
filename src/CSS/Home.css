@@ -20,7 +20,7 @@ a:-webkit-any-link {
 .menu-container {
   width: 8rem;
   height: 100vh;
-  background-color: #18181841;
+  background-color: #050505;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
