@@ -1,7 +1,11 @@
 import React from "react";
 
+import Menu from '../components/Menu';
+
 export default function Skills() {
     return (
-      <div>Skills</div>
+      <div>
+        <Menu />
+      </div>
     );
 }
