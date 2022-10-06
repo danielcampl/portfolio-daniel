@@ -16,46 +16,23 @@ a:-webkit-any-link {
   padding: 0 auto;
 }
 
-.nav-container {
+/* ALL-MENU */
+.menu-container {
+  width: 8rem;
+  height: 100vh;
+  background-color: #18181841;
   display: flex;
   flex-direction: column;
-  font-size: 18px;
-  font-family: "Open Sans",sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-.info-routes {
-  border: 0.5px solid rgba(255, 255, 255, 0.137);
-  width: 12rem;
-  padding: 18px;
-  text-align: center;
-}
-
-.info-routes:hover {
-  color: #08fdd8;
-  transition: color 0.3s;
-}
-
-.socials {
-  width: 8rem;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  padding-bottom: 150px;
-  padding-right: 45px;
-}
-
-ion-icon {
-  width: 20px;
-  height: 20px;
-}
-
-ion-icon:hover {
-  color: #08fdd8;
-  transition: color 0.3s;
-}
-
+/* HOME-LINK */
 .home-icon {
-  padding: 10px;
+  padding: 5px 4px;
+  margin-top: -20px;
+  padding-bottom: 15px;
   width: 10rem;
   height: 200px;
   background-color: black;
@@ -75,16 +52,51 @@ ion-icon:hover {
 }
 
 h5 {
-  color: rgba(255, 255, 255, 0.473);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.452);
+  font-size: small;
 }
 
-.menu-container {
-  width: 10rem;
-  height: 100vh;
-  background-color: #181818;
+/* NAV-LINKS */
+.nav-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 10px 0px 10px;
+  font-size: 18px;
+  font-family: "Open Sans",sans-serif;
+}
+
+.info-routes {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.096);
+  width: 130px;
+  padding: 18px;
+  text-align: center;
+}
+
+.extra-border {
+  border-top: 1px solid rgba(255, 255, 255, 0.096);
+}
+
+.info-routes:hover {
+  color: #08fdd8;
+  transition: color 0.3s;
+}
+
+/* SOCIAL-LINKS */
+.socials {
+  width: 8rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-bottom: 150px;
+  padding-right: 45px;
+}
+
+ion-icon {
+  width: 20px;
+  height: 20px;
+}
+
+ion-icon:hover {
+  color: #08fdd8;
+  transition: color 0.3s;
 }
