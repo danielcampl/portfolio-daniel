@@ -1,0 +1,9 @@
+/* VIDEO-BACKGROUND */
+video {
+    width: 100%;
+    height: 99.6vh;
+    object-fit: cover;
+    opacity: 0.2;
+    z-index: 1;
+    position: absolute;
+  }

@@ -20,7 +20,7 @@ a:-webkit-any-link {
 .menu-container {
   width: 8rem;
   height: 100vh;
-  background-color: #181818;
+  background-color: #1818189f;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,7 +41,7 @@ a:-webkit-any-link {
   padding-bottom: 15px;
   width: 10rem;
   height: 200px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.616);
   color: white;
   display: flex;
   flex-direction: column;
@@ -71,14 +71,14 @@ h5 {
 .nav-container {
   display: flex;
   flex-direction: column;
-  font-size: 18px;
-  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-family: 'Silkscreen', cursive;
 }
 
 .info-routes {
   border-bottom: 1px solid rgba(255, 255, 255, 0.096);
   width: 130px;
-  padding: 18px;
+  padding: 20px;
   text-align: center;
 }
 
