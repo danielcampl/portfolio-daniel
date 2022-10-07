@@ -1,12 +1,206 @@
-.contact-container {
+section {
+  width: 60rem;
   top: 190px;
-  left: 210px;
+  left: 450px;
   padding: 10px 5px;
   position: absolute;
+  display: flex;
+  align-items: flex-start;
+}
+
+p {
+  padding: 10px 10px;
+  font-size: 17px;
+  color: #ffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
   color: #08fdd8;
   font-family: 'Silkscreen', cursive;
   font-size: 70px;
+}
+
+.contact-container {
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+  height: 35rem;
+  max-width: 1000px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px #08fdd848;
+  border: 1px solid #08fdd838;
+  border-radius: 10px;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+}
+
+.contact-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -40%;
+  width: 100%;
+  height: 100%;
+  background-color: #08fdd815;
+  pointer-events: none;
+  transform: skewX(-15deg);
+}
+
+/* aaaaaa */
+.contact-container .row100 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.contact-container .row100 .col {
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  margin: 30px 0 20px;
+}
+
+.contact-container .row100 .col .input-box-name {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #ffff;
+}
+
+.contact-container .row100 .col .input-box {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #ffff;
+}
+
+.contact-container .row100 .col .input-box-message {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  color: #ffff;
+  padding: 5px;
+}
+
+.contact-container .row100 .col .input-box input,
+.contact-container .row100 .col .input-box textarea,
+.contact-container .row100 .col .input-box-name input,
+.contact-container .row100 .col .input-box-name textarea,
+.contact-container .row100 .col .input-box-message input,
+.contact-container .row100 .col .input-box-message textarea
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 0 10px;
+  z-index: 1;
+  color: #000;
+}
+
+.contact-container .row100 .col .input-box textarea {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  font-size: 15px;
+  color: #000;
+}
+
+.contact-container .row100 .col .input-box .text,
+.contact-container .row100 .col .input-box-name .text,
+.contact-container .row100 .col .input-box-message .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-size: 18px;
+  padding: 5px 0;
+  display: block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.contact-container .row100 .col .input-box input:focus + .text,
+.contact-container .row100 .col .input-box input:valid + .text,
+.contact-container .row100 .col .input-box-name input:focus + .text,
+.contact-container .row100 .col .input-box-name input:valid + .text,
+.contact-container .row100 .col .input-box-message textarea:focus + .text,
+.contact-container .row100 .col .input-box-message textarea:valid + .text {
+  top: -40px;
+  left: -10px;
+}
+
+.contact-container .row100 .col .input-box .line,
+.contact-container .row100 .col .input-box-name .line,
+.contact-container .row100 .col .input-box-message .line {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.774);
+  transition: 0.5s;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.contact-container .row100 .col .input-box input:focus ~ .line,
+.contact-container .row100 .col .input-box input:valid ~ .line,
+.contact-container .row100 .col .input-box-name input:focus ~ .line,
+.contact-container .row100 .col .input-box-name input:valid ~ .line,
+.contact-container .row100 .col .input-box-message input:focus ~ .line,
+.contact-container .row100 .col .input-box-message input:valid ~ .line {
+  height: 100%;
+}
+
+.contact-container .row100 .col .input-box .textarea {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.contact-container .row100 .col .input-box-message textarea:focus ~ .line,
+.contact-container .row100 .col .input-box-message textarea:valid ~ .line {
+  height: 100%;
+}
+
+/* BUTTON */
+.contact-container .row100 .col input[type="submit"] {
+  border: 1px solid #08fdd8;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-family: 'Silkscreen', cursive;
+  outline: none;
+  background: transparent;
+  color: #08fdd8;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 2px;
+}
+
+.contact-container .row100 .col input[type="submit"]:hover {
+  background: #08fdd8;
+  color: #000;
+  content: "";
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 0.3s ease-out all;
+  -o-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+}
+
+.send-bnt {
+  left: 70%;
 }

@@ -49,8 +49,9 @@ a:-webkit-any-link {
 }
 
 .avatar-text {
+  margin-top: 125px;
   width: 10rem;
-  height: 200px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

@@ -1,12 +1,12 @@
 import React from "react";
 
-import videoBG from '../assets/video/videoBG.mp4';
+import video from '../assets/video/video.gif';
 import '../CSS/Background.css';
 
 export default function Background() {
   return (
     <div>
-      <video src={videoBG} autoPlay loop muted />
+      <img src={video} autoPlay loop muted alt="gif" />
     </div>
   );
 }
