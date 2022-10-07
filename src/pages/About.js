@@ -1,11 +1,13 @@
 import React from "react";
 
-import Menu from '../components/Menu';
+import Background from "../components/Background";
+import Menu from "../components/Menu";
 
 export default function About() {
-    return (
-      <div>
-        <Menu />
-      </div>
-    );
+  return (
+    <div>
+      <Menu />
+      <Background />
+    </div>
+  );
 }
