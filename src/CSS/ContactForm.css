@@ -1,5 +1,8 @@
 .contact-container {
-  padding: 150px 250px;
+  top: 190px;
+  left: 210px;
+  padding: 10px 5px;
+  position: absolute;
 }
 
 h1 {
