@@ -6,8 +6,8 @@ import Menu from "../components/Menu";
 export default function About() {
   return (
     <div>
-      <Menu />
       <Background />
+      <Menu />
     </div>
   );
 }
