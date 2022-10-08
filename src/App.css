@@ -1,3 +1,41 @@
 body {
   background-color: #1d1d1d;
 }
+
+/* MOBILE CSS */
+@media (max-width: 768px) {
+  /* MENU */
+  .menu-container {
+    visibility: hidden;
+  }
+
+  /* CONTACT FORM */
+  form {
+    width: 30rem;
+    top: 100px;
+    left: 140px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 15px
+  }
+  .contact-container .row100 .col button[type="submit"] {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  .send-bnt {
+    left: 22%;
+  }
+  .contact-container .row100 .col .input-box .text,
+  .contact-container .row100 .col .input-box-name .text,
+  .contact-container .row100 .col .input-box-message .text {
+    font-size: 16px;
+  }
+  .row {
+    width: 350px;
+    height: 350px;
+    text-align: left;
+  }
+}
