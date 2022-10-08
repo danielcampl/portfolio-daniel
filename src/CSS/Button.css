@@ -1,0 +1,28 @@
+/* CONTACT-FORM BUTTON */
+.contact-container .row100 .col button[type="submit"] {
+    border: 1px solid #08fdd8;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-family: 'Silkscreen', cursive;
+    outline: none;
+    background: transparent;
+    color: #08fdd8;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 2px;
+  }
+  
+  .contact-container .row100 .col button[type="submit"]:hover {
+    background: #08fdd8;
+    color: #000;
+    content: "";
+    right: 0;
+    bottom: 0;
+    -webkit-transition: 0.3s ease-out all;
+    -o-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+  }
+  
+  .send-bnt {
+    left: 70%;
+  }
