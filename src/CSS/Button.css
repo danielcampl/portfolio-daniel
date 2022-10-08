@@ -1,5 +1,5 @@
 /* CONTACT-FORM BUTTON */
-.contact-container .row100 .col button[type="submit"] {
+button {
     border: 1px solid #08fdd8;
     padding: 15px 40px;
     cursor: pointer;
@@ -12,7 +12,7 @@
     border-radius: 2px;
   }
   
-  .contact-container .row100 .col button[type="submit"]:hover {
+  button:hover {
     background: #08fdd8;
     color: #000;
     content: "";
