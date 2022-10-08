@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import "../CSS/ContactForm.css";
+import Button from "./Button";
 
 const Result = () => {
   return <p className="row50">Your message has been succesfully sent 🚀</p>;
@@ -83,9 +84,7 @@ export default function ContactForm() {
         {/* SEND BUTTOM */}
         <div className="row100 send-bnt">
           <div className="col">
-            <button type="submit" value="Send message!">
-              Send message!
-            </button>
+            <Button title="Send message!" />
           </div>
         </div>
         <div className="row">{result ? <Result /> : null}</div>
