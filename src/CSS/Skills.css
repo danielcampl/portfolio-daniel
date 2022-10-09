@@ -1,71 +1,88 @@
+/* SECTION TITLE AND TEXT */
+.skills-title {
+  /* border: 1px solid orange; */
+  color: #08fdd8;
+  font-family: "Press Start 2P", cursive;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: start;
+  padding: 10px;
+}
+
+.section-skills {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 250px;
+}
+
+.skills-text {
+  width: 75%;
+}
+
+.skills-text p {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
 /* TABLE SKILLS */
 .skills {
-    text-align: left;
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 24px;
-  }
-  
-  table {
-    top: 400px;
-    left: 1100px;
-    position: absolute;
-    width: 60vh;
-    height: 40vh;
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: grey;
-  }
-  
-  th {
-    padding-left: 30px;
-  }
-  
-  .skills tbody tr td div {
-    display: block;
-  }
-  
-  .html {
-    padding: 20px 80px;
-    background-image: linear-gradient(to right, #08fdd8 80%, #cfcfcf 20%);
-    border-radius: 5px;
-  }
-  .css {
-    padding: 20px 80px;
-    background-image: linear-gradient(to right, #08fdd8 85%, #cfcfcf 15%);
-    border-radius: 5px;
-  }
-  .js {
-    padding: 20px 80px;
-    background-image: linear-gradient(to right, #08fdd8 75%, #cfcfcf 25%);
-    border-radius: 5px;
-  }
-  .js-test {
-    padding: 20px 80px;
-    background-image: linear-gradient(to right, #08fdd8 50%, #cfcfcf 50%);
-    border-radius: 5px;
-  }
-  .jquery {
-    padding: 20px 80px;
-    background-image: linear-gradient(to right, #08fdd8 70%, #cfcfcf 30%);
-    border-radius: 5px;
-  }
-  .ts {
-    padding: 20px 80px;
-    background: #cfcfcf 100%;
-    border-radius: 5px;
-  }
-  .sql {
-    padding: 20px 80px;
-    background: #cfcfcf 100%;
-    border-radius: 5px;
-  }
-  .nodejs {
-    padding: 20px 80px;
-    background: #cfcfcf 100%;
-    border-radius: 5px;
-  }
-  
+  text-align: left;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+table {
+  top: 400px;
+  left: 1100px;
+  position: absolute;
+  width: 60vh;
+  height: 40vh;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+th {
+  padding-left: 30px;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.skills tbody tr td div {
+  display: block;
+}
+
+.front-end {
+  margin-left: 30px;
+  padding: 1px 80px;
+  background-image: linear-gradient(to right, #08fdd8 80%, #373737 20%);
+  border-radius: 5px;
+}
+.back-end {
+  margin-left: 30px;
+  padding: 1px 80px;
+  background-image: linear-gradient(to right, #fd2d08 50%, #373737 50%);
+  border-radius: 5px;
+}
+.react {
+  margin-left: 30px;
+  padding: 1px 80px;
+  background-image: linear-gradient(to right, #fd8b08 75%, #373737 25%);
+  border-radius: 5px;
+}

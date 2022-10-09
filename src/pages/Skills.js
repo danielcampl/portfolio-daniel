@@ -1,56 +1,42 @@
 import React from "react";
 
-import Menu from '../components/Menu';
-import '../CSS/Skills.css';
+import Menu from "../components/Menu";
+import "../CSS/Skills.css";
 
 export default function Skills() {
-    return (
-      <div>
-        <Menu />
+  return (
+    <div>
+      <Menu />
+      <section className="section-skills">
+        <div>
+          <h1 className="skills-title">Skills</h1>
+        </div>
+        <div className="skills-text">
+          <p>Test</p>
+          <p>Test</p>
+          <p>Test</p>
+        </div>
+      </section>
+      <section>
         <table className="skills">
           <tbody>
             <tr>
-              <th>HTML:</th>
+              <th>Front-end</th>
               <td>
-                <div className="html" />
+                <div className="front-end" />
               </td>
-              <th>CSS:</th>
+              <th>Back-end</th>
               <td>
-                <div className="css" />
+                <div className="back-end" />
               </td>
-            </tr>
-            <tr>
-              <th>JavaScript:</th>
+              <th>ReactJS</th>
               <td>
-                <div className="js" />
-              </td>
-              <th>JS Tests:</th>
-              <td>
-                <div className="js-test" />
-              </td>
-            </tr>
-            <tr>
-              <th>JQuery:</th>
-              <td>
-                <div className="jquery" />
-              </td>
-              <th>TypeScript:</th>
-              <td>
-                <div className="ts" />
-              </td>
-            </tr>
-            <tr>
-              <th>SQL:</th>
-              <td>
-                <div className="sql" />
-              </td>
-              <th>NODE.js:</th>
-              <td>
-                <div className="nodejs" />
+                <div className="react" />
               </td>
             </tr>
           </tbody>
         </table>
-      </div>
-    );
+      </section>
+    </div>
+  );
 }

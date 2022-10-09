@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Menu from "../components/Menu";
 import MyAvatar from "../assets/avatar/MyAvatar2.png";
 import "../CSS/About.css";
-// import "../CSS/Title.css";
 
 export default function About() {
   return (
@@ -12,19 +11,8 @@ export default function About() {
       <Menu />
       <div className="section-about">
         <section className="row300">
-          <div className="container about-title">
-            {/* <span>M</span>
-            <span>e</span>
-            <span>, </span>
-            <span>M</span>
-            <span>y</span>
-            <span>s</span>
-            <span>e</span>
-            <span>l</span>
-            <span>f </span>
-            <span>& </span>
-            <span>I</span> */}
-            Me, Myself & I
+          <div>
+            <h1 className="about-title">Me, Myself & I</h1>
           </div>
           <div className="about-text">
             <p>I have knowledge in front-end and back-end, enjoy working in teams and keep lacking to learn more, not only in web development, but also in other areas encompassed by Software Engineering. In this way, acquire more experience.</p>
