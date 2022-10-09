@@ -3,7 +3,6 @@
 }
 
 .row300 {
-  /* border: 1px solid red; */
   width: 100vh;
   height: 100vh;
   display: flex;
@@ -14,9 +13,7 @@
 }
 
 .about-title {
-  /* border: 1px solid orange; */
   color: #08fdd8;
-  /* font-family: 'Silkscreen', cursive; */
   font-family: "Press Start 2P", cursive;
   font-size: 48px;
   font-weight: 900;
@@ -25,12 +22,11 @@
 }
 
 .about-text {
-  /* border: 1px solid red; */
   width: 80%;
 }
 
 .linkto {
-  width: 30%;
+  width: 35%;
   color: #08fdd8;
 }
 .linkto:hover {
@@ -47,6 +43,5 @@
   opacity: 0.9;
   position: fixed;
   left: 800px;
-  top: 329px;
-  z-index: 4;
+  top: 330px;
 }

@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-import "../CSS/ContactForm.css";
 import Button from "./Button";
+import "../CSS/ContactForm.css";
 
 const Result = () => {
   return <p className="row50">Your message has been succesfully sent 🚀</p>;
@@ -42,7 +42,7 @@ export default function ContactForm() {
           I’m open for new opportunities. However, if you have other request or
           question, don’t hesitate to use the form.
         </p>
-        {/* NAME */}
+
         <div className="input-names">
           <div className="row100">
             <div className="col">
@@ -60,7 +60,7 @@ export default function ContactForm() {
               </div>
             </div>
           </div>
-          {/* EMAIL */}
+
           <div className="row100">
             <div className="col">
               <div className="input-box">
@@ -71,7 +71,7 @@ export default function ContactForm() {
             </div>
           </div>
         </div>
-        {/* MESSAGE */}
+
         <div className="row100">
           <div className="col">
             <div className="input-box-message textarea">
@@ -81,7 +81,7 @@ export default function ContactForm() {
             </div>
           </div>
         </div>
-        {/* SEND BUTTOM */}
+
         <div className="row100 send-bnt">
           <div className="col">
             <Button title="Send message!" />
