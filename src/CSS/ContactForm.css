@@ -19,10 +19,16 @@ span {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.text {
+  color: #fff;
+}
+
 .contact-title {
   color: #08fdd8;
-  font-family: 'Silkscreen', cursive;
-  font-size: 70px;
+  /* font-family: 'Silkscreen', cursive; */
+  font-family: 'Press Start 2P', cursive;
+  padding-bottom: 10px;
+  font-size: 58px;
 }
 
 .contact-container {

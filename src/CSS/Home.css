@@ -19,33 +19,22 @@
   justify-content: space-around;
 }
 
-.home-title {
-  font-size: 88px;
-  font-family: 'Alfa Slab One', cursive;
-  color: rgb(235, 165, 165);
-  -webkit-text-stroke: 1px #08fdd856;
-}
-
 li {
   text-decoration: none;
   list-style: none;
 }
 
-li:hover {
-  color: rgb(235, 165, 165);
-  -webkit-text-stroke: 1px #08fdd8;
-}
-
 .paragraph {
   color: grey;
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
 }
 
 #avatar {
   width: 650px;
   height: 650px;
   opacity: 0.9;
-  position: absolute;
+  position: fixed;
   left: 750px;
   top: 329px;
+  z-index: 4;
 }

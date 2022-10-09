@@ -1,0 +1,51 @@
+.section-about {
+  display: flex;
+}
+
+.row300 {
+  /* border: 1px solid red; */
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 250px;
+}
+
+.about-title {
+  /* border: 1px solid orange; */
+  color: #08fdd8;
+  /* font-family: 'Silkscreen', cursive; */
+  font-family: "Press Start 2P", cursive;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: start;
+  padding: 10px;
+}
+
+.about-text {
+  /* border: 1px solid red; */
+  width: 80%;
+}
+
+.linkto {
+  color: #08fdd8;
+}
+.linkto:hover {
+  color: #08fdd881;
+}
+
+.row300 div p {
+  font-family: sans-serif;
+}
+
+#avatar2 {
+  width: 650px;
+  height: 650px;
+  opacity: 0.9;
+  position: fixed;
+  left: 790px;
+  top: 329px;
+  z-index: 4;
+}
