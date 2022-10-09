@@ -32,7 +32,6 @@ li {
 }
 
 li:hover {
-  width: 100%;
   color: rgb(235, 165, 165);
   -webkit-text-stroke: 1px #08fdd8;
 }
