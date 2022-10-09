@@ -14,11 +14,36 @@ export default function Home() {
         <section className="intro">
           <div className="row2">
             <div>
-              <h1 className="home-title">
-                <li>Hi,</li>
-                <li>I'm Daniel,</li>
-                <li>web developer</li>
-              </h1>
+              <div className="container">
+                <span>H</span>
+                <span>i</span>
+                <span>,</span>
+              </div>
+              <div className="container">
+                <span>I</span>
+                <span>'</span>
+                <span>m </span>
+                <span>D</span>
+                <span>a</span>
+                <span>n</span>
+                <span>i</span>
+                <span>e</span>
+                <span>l</span>
+              </div>
+              <div className="container">
+                <span>w</span>
+                <span>e</span>
+                <span>b </span>
+                <span>d</span>
+                <span>e</span>
+                <span>v</span>
+                <span>e</span>
+                <span>l</span>
+                <span>o</span>
+                <span>p</span>
+                <span>e</span>
+                <span>r</span>
+              </div>
             </div>
             <p className="paragraph">
               Full Stack Developer / Studding At Trybe
@@ -28,9 +53,9 @@ export default function Home() {
             <Button title="Contact me" />
           </Link>
         </section>
-      </div>
-      <div>
-        <img src={MyAvatar} alt="avatar" id="avatar" />
+        <div>
+          <img src={MyAvatar} alt="avatar" id="avatar" />
+        </div>
       </div>
     </div>
   );
