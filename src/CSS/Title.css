@@ -1,0 +1,67 @@
+/* HOME TITLE LETTERS ANIMATION */
+:root {
+    --colorBack: #040305;
+    --colorBlue: #08fdd8;
+    --colorGrey: rgb(87, 87, 87);
+  }
+  
+  span {
+    color: var(--colorGrey);
+    font-size: 84px;
+  }
+  
+  .container span {
+    font-family: 'Alfa Slab One', cursive;
+    animation: brilho 3s ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  .container span:nth-of-type(2) {
+    animation-delay: 0.2s;
+  }
+  .container span:nth-of-type(3) {
+    animation-delay: 0.4s;
+  }
+  .container span:nth-of-type(4) {
+    animation-delay: 0.6s;
+  }
+  .container span:nth-of-type(5) {
+    animation-delay: 0.8s;
+  }
+  .container span:nth-of-type(6) {
+    animation-delay: 1s;
+  }
+  .container span:nth-of-type(7) {
+    animation-delay: 1.2s;
+  }
+  .container span:nth-of-type(8) {
+    animation-delay: 1.4s;
+  }
+  .container span:nth-of-type(9) {
+    animation-delay: 1.6s;
+  }
+  .container span:nth-of-type(10) {
+    animation-delay: 1.8s;
+  }
+  .container span:nth-of-type(11) {
+    animation-delay: 2s;
+  }
+  .container span:nth-of-type(12) {
+    animation-delay: 2.2s;
+  }
+  .container span:nth-of-type(13) {
+    animation-delay: 2.4s;
+  }
+  
+  @keyframes brilho {
+    0% {
+      color: #fff;
+      text-shadow: 0 0 12px var(--colorBlue), 0 0 50px var(--colorBlue),
+        0 0 100px var(--colorBlue);
+    }
+    10%,
+    90% {
+      color: var(--colorGrey);
+      text-shadow: none;
+    }
+  }

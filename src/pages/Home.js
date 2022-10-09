@@ -5,6 +5,7 @@ import Menu from "../components/Menu";
 import Button from "../components/Button";
 import MyAvatar from "../assets/avatar/MyAvatar.png";
 import "../CSS/Home.css";
+import '../CSS/Title.css'
 
 export default function Home() {
   return (
