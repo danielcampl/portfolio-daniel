@@ -19,10 +19,22 @@
   justify-content: space-around;
 }
 
-h1 {
-	font-size: 88px;
+.home-title {
+  font-size: 88px;
   font-family: 'Alfa Slab One', cursive;
-  color: rgb(255, 196, 196);
+  color: rgb(235, 165, 165);
+  -webkit-text-stroke: 1px #08fdd856;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+li:hover {
+  width: 100%;
+  color: rgb(235, 165, 165);
+  -webkit-text-stroke: 1px #08fdd8;
 }
 
 .paragraph {

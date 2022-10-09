@@ -67,6 +67,12 @@ a:-webkit-any-link {
   padding-left: 20px;
   color: #08fdd8;
   font-family: 'Press Start 2P', cursive;
+  font-size: 88px;
+}
+
+.D:hover {
+  color: rgb(235, 165, 165);
+  -webkit-text-stroke: 1px #08fdd8;
 }
 
 h2 {

@@ -6,8 +6,6 @@ import Button from "../components/Button";
 import MyAvatar from "../assets/avatar/MyAvatar.png";
 import "../CSS/Home.css";
 
-// fix error
-
 export default function Home() {
   return (
     <div>
@@ -16,9 +14,11 @@ export default function Home() {
         <section className="intro">
           <div className="row2">
             <div>
-              <h1>Hi,</h1>
-              <h1>I'm Daniel,</h1>
-              <h1>web developer</h1>
+              <h1 className="home-title">
+                <li>Hi,</li>
+                <li>I'm Daniel,</li>
+                <li>web developer</li>
+              </h1>
             </div>
             <p className="paragraph">
               Full Stack Developer / Studding At Trybe
@@ -29,9 +29,9 @@ export default function Home() {
           </Link>
         </section>
       </div>
-        <div>
-          <img src={MyAvatar} alt="avatar" id="avatar" />
-        </div>
+      <div>
+        <img src={MyAvatar} alt="avatar" id="avatar" />
+      </div>
     </div>
   );
 }
