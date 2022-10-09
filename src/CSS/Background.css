@@ -1,8 +1,0 @@
-/* VIDEO-BACKGROUND */
-img {
-    width: 100%;
-    height: 99.6vh;
-    object-fit: cover;
-    opacity: 0.1;
-    position: absolute;
-  }

@@ -1,0 +1,40 @@
+.row1 {
+  padding: 285px 250px 0 250px;
+  display: flex;
+}
+
+.row2 {
+  width: 700px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.intro {
+  width: 550px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+	font-size: 88px;
+  font-family: 'Alfa Slab One', cursive;
+  color: rgb(255, 196, 196);
+}
+
+.paragraph {
+  color: grey;
+  font-family: 'Figtree', sans-serif;
+}
+
+#avatar {
+  width: 650px;
+  height: 650px;
+  opacity: 0.9;
+  position: absolute;
+  left: 750px;
+  top: 329px;
+}

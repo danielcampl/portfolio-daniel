@@ -37,7 +37,7 @@ export default function ContactForm() {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <div className="contact-container">
-        <h1>Contact me</h1>
+        <h1 className="contact-title">Contact me</h1>
         <p>
           I’m open for new opportunities. However, if you have other request or
           question, don’t hesitate to use the form.
