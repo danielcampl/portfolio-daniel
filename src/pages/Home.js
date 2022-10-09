@@ -6,6 +6,8 @@ import Button from "../components/Button";
 import MyAvatar from "../assets/avatar/MyAvatar.png";
 import "../CSS/Home.css";
 
+// fix error
+
 export default function Home() {
   return (
     <div>
