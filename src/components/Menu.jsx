@@ -32,13 +32,13 @@ export default function Home() {
         <li>
           <a
             rel="GitHub"
-            href="https://www.linkedin.com/in/daniel-campelo-338710230/"
+            href="https://github.com/danielcampl"
           >
             <ion-icon name="logo-github" className="social-icon"></ion-icon>
           </a>
         </li>
         <li>
-          <a rel="Linkedin" href="https://github.com/danielcampl">
+          <a rel="Linkedin" href="https://www.linkedin.com/in/daniel-campelo-338710230/">
             <ion-icon name="logo-linkedin" className="social-icon"></ion-icon>
           </a>
         </li>

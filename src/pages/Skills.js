@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Menu from "../components/Menu";
 import "../CSS/Skills.css";
 
 export default function Skills() {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <div>
       <Menu />
@@ -12,9 +16,41 @@ export default function Skills() {
           <h1 className="skills-title">Skills</h1>
         </div>
         <div className="skills-text">
-          <p>Test</p>
-          <p>Test</p>
-          <p>Test</p>
+          <p>
+            Since beginning my journey as a web developer nearly 7 months ago,
+            I’ve done some projects for Trybe such as "Recipes app" and "Online
+            Store", and collaborated with talented people to create and study
+            this type of work.
+          </p>
+          <p>
+            I create websites that are fast, easy to use, and built with best
+            practices. The main area of my expertise is front-end development,
+            HTML, CSS, JS, building small and medium web apps.
+          </p>
+          <p>
+            I'm also studding for full-stack developement as I begun with
+            Back-end about 1 month ago.
+          </p>
+          <p>
+            Visit my{" "}
+            <a
+              href="/skills"
+              rel="noopener noreferrer"
+              onClick={() =>
+                openInNewTab(
+                  "https://www.linkedin.com/in/daniel-campelo-338710230/"
+                )
+              }
+              className="linkto"
+            >
+              LinkedIn
+            </a>{" "}
+            profile for more details or just{" "}
+            <Link to="/contact" className="linkto">
+              contact
+            </Link>{" "}
+            me.
+          </p>
         </div>
       </section>
       <section>
