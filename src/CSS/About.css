@@ -15,80 +15,37 @@
 
 .about-title {
   /* border: 1px solid orange; */
+  color: #08fdd8;
+  /* font-family: 'Silkscreen', cursive; */
+  font-family: "Press Start 2P", cursive;
+  font-size: 48px;
+  font-weight: 900;
   text-align: start;
+  padding: 10px;
+}
+
+.about-text {
+  /* border: 1px solid red; */
+  width: 80%;
+}
+
+.linkto {
+  color: #08fdd8;
+}
+.linkto:hover {
+  color: #08fdd881;
 }
 
 .row300 div p {
   font-family: sans-serif;
 }
 
-/* TABLE SKILLS */
-.skills {
-  text-align: left;
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 24px;
-}
-
-table {
-  top: 400px;
-  left: 1100px;
-  position: absolute;
-  width: 60vh;
-  height: 40vh;
-  display: table;
-  border-collapse: separate;
-  box-sizing: border-box;
-  text-indent: initial;
-  border-spacing: 2px;
-  border-color: grey;
-}
-
-th {
-  padding-left: 30px;
-}
-
-.skills tbody tr td div {
-  display: block;
-}
-
-.html {
-  padding: 20px 80px;
-  background-image: linear-gradient(to right, #08fdd8 80%, #cfcfcf 20%);
-  border-radius: 5px;
-}
-.css {
-  padding: 20px 80px;
-  background-image: linear-gradient(to right, #08fdd8 85%, #cfcfcf 15%);
-  border-radius: 5px;
-}
-.js {
-  padding: 20px 80px;
-  background-image: linear-gradient(to right, #08fdd8 75%, #cfcfcf 25%);
-  border-radius: 5px;
-}
-.js-test {
-  padding: 20px 80px;
-  background-image: linear-gradient(to right, #08fdd8 50%, #cfcfcf 50%);
-  border-radius: 5px;
-}
-.jquery {
-  padding: 20px 80px;
-  background-image: linear-gradient(to right, #08fdd8 70%, #cfcfcf 30%);
-  border-radius: 5px;
-}
-.ts {
-  padding: 20px 80px;
-  background: #cfcfcf 100%;
-  border-radius: 5px;
-}
-.sql {
-  padding: 20px 80px;
-  background: #cfcfcf 100%;
-  border-radius: 5px;
-}
-.nodejs {
-  padding: 20px 80px;
-  background: #cfcfcf 100%;
-  border-radius: 5px;
+#avatar2 {
+  width: 650px;
+  height: 650px;
+  opacity: 0.9;
+  position: fixed;
+  left: 790px;
+  top: 329px;
+  z-index: 4;
 }

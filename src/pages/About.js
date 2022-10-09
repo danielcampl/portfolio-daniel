@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Menu from "../components/Menu";
+import MyAvatar from "../assets/avatar/MyAvatar2.png";
 import "../CSS/About.css";
-import "../CSS/Title.css";
+// import "../CSS/Title.css";
 
 export default function About() {
   return (
@@ -11,7 +13,7 @@ export default function About() {
       <div className="section-about">
         <section className="row300">
           <div className="container about-title">
-            <span>M</span>
+            {/* <span>M</span>
             <span>e</span>
             <span>, </span>
             <span>M</span>
@@ -21,59 +23,19 @@ export default function About() {
             <span>l</span>
             <span>f </span>
             <span>& </span>
-            <span>I</span>
+            <span>I</span> */}
+            Me, Myself & I
           </div>
-          <div>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
-            <p>Teste</p>
+          <div className="about-text">
+            <p>I have knowledge in front-end and back-end web development, enjoy working in teams and keep lacking to learn more, not only in web development, but also in other areas encompassed by Software Engineering. In this way, acquire more experience.</p>
+            <p>Well-organised person, problem solver with high attention to detail. Fan of Games online, outdoor activities and TV series. A family person and lead by good friendships.</p>
+            <p>Undergraduate course: Trybe | 3º Período (03/2022 - 03/2023)</p>
+            <Link to="/contact"><p className="linkto">Let's make something special.</p></Link>
           </div>
         </section>
-        <table className="skills">
-          <tbody>
-            <tr>
-              <th>HTML:</th>
-              <td>
-                <div className="html" />
-              </td>
-              <th>CSS:</th>
-              <td>
-                <div className="css" />
-              </td>
-            </tr>
-            <tr>
-              <th>JavaScript:</th>
-              <td>
-                <div className="js" />
-              </td>
-              <th>JS Tests:</th>
-              <td>
-                <div className="js-test" />
-              </td>
-            </tr>
-            <tr>
-              <th>JQuery:</th>
-              <td>
-                <div className="jquery" />
-              </td>
-              <th>TypeScript:</th>
-              <td>
-                <div className="ts" />
-              </td>
-            </tr>
-            <tr>
-              <th>SQL:</th>
-              <td>
-                <div className="sql" />
-              </td>
-              <th>NODE.js:</th>
-              <td>
-                <div className="nodejs" />
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <img src={MyAvatar} alt="avatar" id="avatar2" />
+        </div>
       </div>
     </div>
   );
