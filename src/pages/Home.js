@@ -26,10 +26,10 @@ export default function Home() {
             <Button title="Contact me" />
           </Link>
         </section>
+      </div>
         <div>
           <img src={MyAvatar} alt="avatar" id="avatar" />
         </div>
-      </div>
     </div>
   );
 }

@@ -22,7 +22,7 @@
 h1 {
 	font-size: 88px;
   font-family: 'Alfa Slab One', cursive;
-  color: rgb(228, 196, 196);
+  color: rgb(255, 196, 196);
 }
 
 .paragraph {
@@ -34,4 +34,7 @@ h1 {
   width: 650px;
   height: 650px;
   opacity: 0.9;
+  position: absolute;
+  left: 750px;
+  top: 329px;
 }
