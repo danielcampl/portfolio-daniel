@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import Menu from "../components/Menu";
 import Button from "../components/Button";
+import { motion } from 'framer-motion';
+
 import MyAvatar from "../assets/avatar/MyAvatar.png";
 import "../CSS/Home.css";
 import '../CSS/Title.css'
@@ -11,7 +13,12 @@ export default function Home() {
   return (
     <div>
       <Menu />
-      <div className="row1">
+      <motion.div 
+        className="row1"
+        animate={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 0.4 }}
+      >
         <section className="intro">
           <div className="row2">
             <div>
@@ -57,7 +64,7 @@ export default function Home() {
         <div>
           <img src={MyAvatar} alt="avatar" id="avatar" />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

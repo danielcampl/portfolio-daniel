@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
 
 import Menu from "../components/Menu";
 import MyAvatar from "../assets/avatar/MyAvatar2.png";
@@ -9,7 +10,12 @@ export default function About() {
   return (
     <div>
       <Menu />
-      <div className="section-about">
+      <motion.div 
+        className="section-about"
+        animate={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 0.4 }}
+      >
         <section className="row300">
           <div>
             <h1 className="about-title">Me, Myself & I</h1>
@@ -24,7 +30,7 @@ export default function About() {
         <div>
           <img src={MyAvatar} alt="avatar" id="avatar2" />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
