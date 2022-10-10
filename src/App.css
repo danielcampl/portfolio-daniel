@@ -3,6 +3,7 @@ body {
   height: 100vh;
   /* height: 200vh; */
   width: 100%;
+  user-select: none
 }
 
 body::before {
