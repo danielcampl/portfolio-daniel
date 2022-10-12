@@ -12,15 +12,15 @@ button {
     border-radius: 2px;
   }
   
-  button:hover {
+  .contact-text:hover button {
     background: #08fdd8;
     color: #000;
-    content: "";
-    right: 0;
-    bottom: 0;
-    -webkit-transition: 0.3s ease-out all;
-    -o-transition: 0.3s ease-out all;
-    transition: 0.3s ease-out all;
+    left: -5px;
+    top: 0;
+    transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transform: skewX(-5deg);
   }
   
   .send-bnt {
