@@ -3,11 +3,11 @@ body {
   height: 100vh;
   /* height: 200vh; */
   width: 100%;
-  user-select: none
+  user-select: none;
 }
 
 body::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -40%;
@@ -21,9 +21,68 @@ body::before {
 
 /* MOBILE CSS */
 @media (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  /* LOADING  */
+
   /* MENU */
   .menu-container {
     visibility: hidden;
+  }
+
+  /* HOME */
+  span {
+    font-size: 70px;
+  }
+  .row1 {
+    padding: 110px 150px 0 120px;
+  }
+  #avatar {
+    left: 270px;
+    top: 485px;
+    width: 410px;
+    height: 410px;
+  }
+  li {
+    width: 100%;
+    color: rgb(235, 165, 165);
+    -webkit-text-stroke: 1px #08fdd856;
+  }
+
+  /* ABOUT */
+  .about-title {
+    font-size: 40px;
+    width: 600px;
+  }
+  .row300 {
+    padding: 0 100px;
+  }
+  .linkto {
+    width: 45%;
+  }
+
+  /* SKILLS */
+  .skills-title {
+    font-size: 40px;
+  }
+  .section-skills {
+    padding: 0 70px;
+  }
+
+  /* PROJECTS */
+  .magicwall ul li {
+    width: 256px;
+    height: 222.6px;
+  }
+  .magicwall ul {
+    padding-left: 0px;
+  }
+  .magicwall ul li a.colorbox {
+    margin-left: 33px;
+    width: 200px;
+    height: 200px;
   }
 
   /* CONTACT FORM */
@@ -36,7 +95,7 @@ body::before {
     font-size: 45px;
   }
   p {
-    font-size: 15px
+    font-size: 15px;
   }
   .contact-container .row100 .col button[type="submit"] {
     padding: 10px 30px;
@@ -54,27 +113,5 @@ body::before {
     width: 350px;
     height: 350px;
     text-align: left;
-  }
-
-  /* HOME */
-  .home-title {
-    font-size: 60px;
-  }
-  .row1 {
-    padding: 225px 250px 0 120px;
-  }
-  body::before {
-    height: 100vh;
-  }
-  #avatar {
-    left: 270px;
-    top: 450px;
-    width: 450px;
-    height: 450px;
-  }
-  li {
-    width: 100%;
-    color: rgb(235, 165, 165);
-    -webkit-text-stroke: 1px #08fdd856;
   }
 }
