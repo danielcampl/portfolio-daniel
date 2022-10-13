@@ -2,7 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import Menu from "../components/Menu";
-import Image from "../assets/avatar/image.png";
+import Empty from "../assets/images/Empty.png";
+import Trybefy from "../assets/images/trybefy.png";
+import Wallet from "../assets/images/trybe-wallet.png";
+import Shopping from "../assets/images/Shopping-cart.png";
 import "../CSS/Projects.css";
 
 export default function Projects() {
@@ -18,86 +21,88 @@ export default function Projects() {
         <ul>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Trybefy} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>View this project</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Wallet} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="https://github.com/danielcampl/trybe-wallet-project"
+              target="_blank"
+              className="colorbox"><p>View this project</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Shopping} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>View this project</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Image} alt="img" />
+              <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" className="colorbox"><p>Empty</p></a>
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
         </ul>
