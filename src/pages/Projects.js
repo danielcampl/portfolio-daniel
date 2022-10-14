@@ -7,6 +7,7 @@ import Trybefy from "../assets/images/trybefy.png";
 import Wallet from "../assets/images/trybe-wallet.png";
 import Shopping from "../assets/images/Shopping-cart.png";
 import Trivia from "../assets/images/trivia.png";
+import Recipes from "../assets/images/recipes.png";
 import "../CSS/Projects.css";
 
 export default function Projects() {
@@ -38,13 +39,6 @@ export default function Projects() {
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Shopping} alt="img" />
-              <div className="hover-content" />
-              <a href="https://github.com/danielcampl/shopping-cart-project" target="_blank" className="colorbox"><p>View this project</p></a>
-            </div>
-          </li>
-          <li>
-            <div className="magicwall-item lazyload">
               <img src={Trivia} alt="img" />
               <div className="hover-content" />
               <a href="https://github.com/danielcampl/trivia-game-project" target="_blank" className="colorbox"><p>View this project</p></a>
@@ -52,9 +46,16 @@ export default function Projects() {
           </li>
           <li>
             <div className="magicwall-item lazyload">
-              <img src={Empty} alt="img" />
+              <img src={Shopping} alt="img" />
               <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
+              <a href="https://github.com/danielcampl/shopping-cart-project" target="_blank" className="colorbox"><p>View this project</p></a>
+            </div>
+          </li>
+          <li>
+            <div className="magicwall-item lazyload">
+              <img src={Recipes} alt="img" />
+              <div className="hover-content" />
+              <a href="https://github.com/danielcampl/recipes-app-project" target="_blank" className="colorbox"><p>View this project</p></a>
             </div>
           </li>
           <li>
