@@ -33,17 +33,18 @@ export default function Home() {
           <a
             rel="GitHub"
             href="https://github.com/danielcampl"
+            target="_blank"
           >
             <ion-icon name="logo-github" className="social-icon"></ion-icon>
           </a>
         </li>
         <li>
-          <a rel="Linkedin" href="https://www.linkedin.com/in/daniel-campelo-338710230/">
+          <a rel="Linkedin" href="https://www.linkedin.com/in/daniel-campelo-338710230/" target="_blank">
             <ion-icon name="logo-linkedin" className="social-icon"></ion-icon>
           </a>
         </li>
         <li>
-          <a rel="Mail" href="mailto://danielcampelo159@gmail.com">
+          <a rel="Mail" href="mailto://danielcampelo159@gmail.com" target="_blank">
             <ion-icon name="mail" className="social-icon"></ion-icon>
           </a>
         </li>
