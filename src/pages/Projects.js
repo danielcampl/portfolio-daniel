@@ -7,6 +7,8 @@ import Trybefy from "../assets/images/trybefy.png";
 import Wallet from "../assets/images/trybe-wallet.png";
 import Shopping from "../assets/images/Shopping-cart.png";
 import Trivia from "../assets/images/trivia.png";
+import Recipes from "../assets/images/recipes.png";
+import Store from "../assets/images/online-store.png";
 import "../CSS/Projects.css";
 
 export default function Projects() {
@@ -21,14 +23,14 @@ export default function Projects() {
       >
         <ul>
           <li>
-            <div className="magicwall-item lazyload">
+            <div className="magicwall-item">
               <img src={Trybefy} alt="img" />
               <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>View this project</p></a>
+              <a href="https://github.com/danielcampl/trybetunes-project" target="_blank" className="colorbox"><p>View this project</p></a>
             </div>
           </li>
           <li>
-            <div className="magicwall-item lazyload">
+            <div className="magicwall-item">
               <img src={Wallet} alt="img" />
               <div className="hover-content" />
               <a href="https://github.com/danielcampl/trybe-wallet-project"
@@ -37,73 +39,73 @@ export default function Projects() {
             </div>
           </li>
           <li>
-            <div className="magicwall-item lazyload">
-              <img src={Shopping} alt="img" />
-              <div className="hover-content" />
-              <a href="https://github.com/danielcampl/shopping-cart-project" target="_blank" className="colorbox"><p>View this project</p></a>
-            </div>
-          </li>
-          <li>
-            <div className="magicwall-item lazyload">
+            <div className="magicwall-item">
               <img src={Trivia} alt="img" />
               <div className="hover-content" />
               <a href="https://github.com/danielcampl/trivia-game-project" target="_blank" className="colorbox"><p>View this project</p></a>
             </div>
           </li>
           <li>
-            <div className="magicwall-item lazyload">
-              <img src={Empty} alt="img" />
+            <div className="magicwall-item">
+              <img src={Shopping} alt="img" />
               <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
+              <a href="https://github.com/danielcampl/shopping-cart-project" target="_blank" className="colorbox"><p>View this project</p></a>
+            </div>
+          </li>
+          <li>
+            <div className="magicwall-item">
+              <img src={Recipes} alt="img" />
+              <div className="hover-content" />
+              <a href="https://github.com/danielcampl/recipes-app-project" target="_blank" className="colorbox"><p>View this project</p></a>
+            </div>
+          </li>
+          <li>
+            <div className="magicwall-item">
+              <img src={Store} alt="img" />
+              <div className="hover-content" />
+              <a href="https://github.com/danielcampl/front-end-online-store-project" target="_blank" className="colorbox"><p>View this project</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
               <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
+              <a href="" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
               <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
+              <a href="" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
               <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
+              <a href="" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
               <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
+              <a href="" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
               <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
+              <a href="" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
             <div className="magicwall-item lazyload">
               <img src={Empty} alt="img" />
               <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
-            </div>
-          </li>
-          <li>
-            <div className="magicwall-item lazyload">
-              <img src={Empty} alt="img" />
-              <div className="hover-content" />
-              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
+              <a href="" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
         </ul>

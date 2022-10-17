@@ -25,6 +25,7 @@
 }
 
 .magicwall .magicwall-item {
+  border: 1px solid rgb(255, 255, 255);
   position: absolute;
   top: 0;
   left: 0;
@@ -39,7 +40,7 @@
   height: 100%;
   object-fit: cover;
   z-index: -1000;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .magicwall ul li:hover .magicwall-item {
@@ -77,6 +78,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 10px 10px 50px grey;
 }
 
 .magicwall ul li a.colorbox p {
@@ -84,4 +86,8 @@
   width: 260px;
   font-size: 28px;
   font-family: "Press Start 2P", cursive;
+}
+
+.lazyload img {
+  opacity: 0.5;
 }
