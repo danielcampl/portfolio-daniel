@@ -29,7 +29,9 @@ export default function Resume() {
         <div className="resume-container">
           <section className="flex-box">
             <div className="button-download">
-              <Button title="Download CV" />
+              <a href="https://drive.google.com/file/d/1r3THjSldYv8zy8r7YbDfPmPGqquynlHI/view" target="_blank">
+                <Button title="Download CV" />
+              </a>
             </div>
             <Row className="resume">
               <Document file={pdf} className="document-container">
