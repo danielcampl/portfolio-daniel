@@ -24,6 +24,9 @@ export default function Home() {
         <a rel="Projects" href="/projects" className="info-routes">
           Projects
         </a>
+        <a rel="Resume" href="/resume" className="info-routes">
+          Resume
+        </a>
         <a rel="Contact" href="/contact" className="info-routes">
           Contact
         </a>
