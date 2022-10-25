@@ -9,6 +9,7 @@ import Shopping from "../assets/images/Shopping-cart.png";
 import Trivia from "../assets/images/trivia.png";
 import Recipes from "../assets/images/recipes.png";
 import Store from "../assets/images/online-store.png";
+import Manager from "../assets/images/store-manager.png";
 
 export default function Projects() {
   return (
@@ -66,10 +67,10 @@ export default function Projects() {
             </div>
           </li>
           <li>
-            <div className="magicwall-item lazyload">
-              <img src={Empty} alt="img" />
+            <div className="magicwall-item">
+              <img src={Manager} alt="img" />
               <div className="hover-content" />
-              <a href="" target="_blank" className="colorbox"><p>Empty</p></a>
+              <a href="https://github.com/danielcampl/store-manager" target="_blank" className="colorbox"><p>View this project</p></a>
             </div>
           </li>
           <li>
