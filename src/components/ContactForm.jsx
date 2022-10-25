@@ -42,7 +42,6 @@ export default function ContactForm() {
           I’m open for new opportunities. However, if you have other request or
           question, don’t hesitate to use the form.
         </p>
-
         <div className="input-names">
           <div className="row100">
             <div className="col">

@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Document, Page, pdfjs } from "react-pdf";
+import {
+  // Document,
+  // Page,
+  pdfjs } from "react-pdf";
 import { Container, Row } from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-import pdf from "../assets/daniel-campelo-cv.pdf";
+// import pdf from "../assets/daniel-campelo-cv.pdf";
 import Button from "../components/Button";
 import Menu from "../components/Menu";
-import "../CSS/Resume.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -34,9 +36,9 @@ export default function Resume() {
               </a>
             </div>
             <Row className="resume">
-              <Document file={pdf} className="document-container">
+              {/* <Document file={pdf} className="document-container">
                 <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-              </Document>
+              </Document> */}
             </Row>
           </section>
         </div>

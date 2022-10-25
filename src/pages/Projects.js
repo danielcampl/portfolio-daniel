@@ -9,7 +9,6 @@ import Shopping from "../assets/images/Shopping-cart.png";
 import Trivia from "../assets/images/trivia.png";
 import Recipes from "../assets/images/recipes.png";
 import Store from "../assets/images/online-store.png";
-import "../CSS/Projects.css";
 
 export default function Projects() {
   return (

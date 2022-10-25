@@ -5,7 +5,7 @@ button {
     cursor: pointer;
     font-family: 'Silkscreen', cursive;
     outline: none;
-    background: transparent;
+    background: rgba(165, 255, 243, 0.37);
     color: #08fdd8;
     font-weight: 600;
     font-size: 17px;
