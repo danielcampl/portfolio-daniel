@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import Menu from "../components/Menu";
-import "../CSS/Skills.css";
 
 export default function Skills() {
   const openInNewTab = (url) => {
