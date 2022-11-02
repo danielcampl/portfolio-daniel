@@ -359,6 +359,12 @@ button:hover {
   visibility: hidden;
 }
 
+.react-pdf__Page {
+  border: 2px solid rgb(73, 235, 213);
+  border-radius: 20px;
+}
+
 .resume {
+  margin-top: 10px;
   z-index: 1000;
 }

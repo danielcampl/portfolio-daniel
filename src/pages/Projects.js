@@ -5,7 +5,6 @@ import Menu from "../components/Menu";
 import Empty from "../assets/images/Empty.png";
 import Trybefy from "../assets/images/trybefy.png";
 import Wallet from "../assets/images/trybe-wallet.png";
-import Shopping from "../assets/images/Shopping-cart.png";
 import Trivia from "../assets/images/trivia.png";
 import Recipes from "../assets/images/recipes.png";
 import Store from "../assets/images/online-store.png";
@@ -47,13 +46,6 @@ export default function Projects() {
           </li>
           <li>
             <div className="magicwall-item">
-              <img src={Shopping} alt="img" />
-              <div className="hover-content" />
-              <a href="https://github.com/danielcampl/shopping-cart-project" target="_blank" className="colorbox"><p>View this project</p></a>
-            </div>
-          </li>
-          <li>
-            <div className="magicwall-item">
               <img src={Recipes} alt="img" />
               <div className="hover-content" />
               <a href="https://github.com/danielcampl/recipes-app-project" target="_blank" className="colorbox"><p>View this project</p></a>
@@ -71,6 +63,13 @@ export default function Projects() {
               <img src={Manager} alt="img" />
               <div className="hover-content" />
               <a href="https://github.com/danielcampl/store-manager" target="_blank" className="colorbox"><p>View this project</p></a>
+            </div>
+          </li>
+          <li>
+            <div className="magicwall-item lazyload">
+              <img src={Empty} alt="img" />
+              <div className="hover-content" />
+              <a href="#" target="_blank" className="colorbox"><p>Empty</p></a>
             </div>
           </li>
           <li>
