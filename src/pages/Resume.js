@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import {
-  Document,
-  Page,
-  pdfjs } from "react-pdf";
+import { Document, Page, pdfjs } from "react-pdf";
 import { Container, Row } from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 

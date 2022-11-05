@@ -36,10 +36,10 @@ export default function About() {
           <Link to="/contact">
             <p className="linkto">Let's make something special.</p>
           </Link>
+          <div>
+            <img src={Balls} alt="balls" className="balls" />
+          </div>
         </section>
-        <div>
-          <img src={Balls} alt="balls" className="balls" />
-        </div>
       </motion.div>
     </div>
   );

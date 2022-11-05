@@ -61,10 +61,10 @@ export default function Home() {
           <Link to="/contact">
             <Button title="Contact me" />
           </Link>
+          <div className="balls">
+            <img src={Balls} alt="balls" className="ball" />
+          </div>
         </section>
-        <div className="balls">
-          <img src={Balls} alt="balls" className="ball" />
-        </div>
       </motion.div>
     </div>
   );
