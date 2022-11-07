@@ -34,12 +34,12 @@ export default function About() {
             <p>Undergraduate course: Trybe | 3º Module (03/2022 - 03/2023)</p>
           </div>
           <Link to="/contact">
-            <p className="linkto">Let's make something special.</p>
+            <p className="linkto">Let's work together.</p>
           </Link>
+          <div>
+            <img src={Balls} alt="balls" className="balls" />
+          </div>
         </section>
-        <div>
-          <img src={Balls} alt="balls" className="balls" />
-        </div>
       </motion.div>
     </div>
   );

@@ -106,7 +106,6 @@ li {
 }
 
 .linkto {
-  width: 250px;
   color: #00ffd9;
 }
 .linkto:hover {
@@ -215,7 +214,7 @@ td {
 .react {
   margin-left: 30px;
   padding: 1px 80px;
-  background-image: linear-gradient(to right, #fd8b08 75%, #373737 25%);
+  background-image: linear-gradient(to right, #fd8b08 85%, #373737 25%);
   border-radius: 5px;
 }
 
@@ -304,7 +303,7 @@ td {
 }
 
 .magicwall ul li a.colorbox p {
-  /* border: 1px solid red; */
+  color: rgba(0, 0, 0, 0.8);
   width: 260px;
   font-size: 28px;
   font-family: "Press Start 2P", cursive;

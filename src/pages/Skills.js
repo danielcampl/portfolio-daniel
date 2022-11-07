@@ -43,7 +43,7 @@ export default function Skills() {
                 rel="noopener noreferrer"
                 onClick={() =>
                   openInNewTab(
-                    "https://www.linkedin.com/in/daniel-campelo-338710230/"
+                    "https://www.linkedin.com/in/danielcampl/"
                   )
                 }
                 className="linkto"

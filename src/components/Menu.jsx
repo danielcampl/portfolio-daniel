@@ -43,7 +43,7 @@ export default function Home() {
           </a>
         </li>
         <li>
-          <a rel="Linkedin" href="https://www.linkedin.com/in/daniel-campelo-338710230/" target="_blank">
+          <a rel="Linkedin" href="https://www.linkedin.com/in/danielcampl/" target="_blank">
             <ion-icon name="logo-linkedin" className="social-icon"></ion-icon>
           </a>
         </li>
