@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #5a189a, #240046);
+  color: white;
+}
+
+.typeAnimation {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 468px) {
+  .typeAnimation {
+    font-size: 16px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.links {
+  color: #da4ea2;
+}
+
+.links:hover {
+  color: #ff80ccee;
+}
+
+iframe {
+  width: 600px;
+  height: 400px;
+}
+
+ion-icon {
+  width: 22px;
+  height: 22px;
+}
+
+#x-icon, #i {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-container {
+  &:hover {
+    color: #f272be;
+  }
+
+  @media (max-width: 992px) {
+    ion-icon {
+      width: 26px;
+      height: 26px;
+    }
+  }
+}

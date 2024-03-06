@@ -1,0 +1,141 @@
+/* HOME NAVBAR */
+.home-navbar {
+  width: 100%;
+  height: 15vh;
+  position: fixed;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.home-nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 250px;
+}
+
+.socials img {
+  width: 140px;
+}
+
+.home-nav-socials,
+.dropdown-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  padding-top: 13px;
+}
+
+.home-nav-socials li,
+.dropdown-menu li {
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+
+  .socials {
+    &:hover {
+      color: #f272be;
+    }
+  }
+
+  ;
+}
+
+.home-button-nav {
+  background-color: #da4ea2;
+  color: white;
+  font-weight: 500;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 5px 5px 30px #da4ea2;
+  }
+}
+
+ul.social-links-container {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.i-bars {
+  display: none;
+}
+
+/* ALTERNATIVE NAVBAR */
+.home-navbar-alternative {
+  width: 100%;
+  height: 15vh;
+  position: fixed;
+  padding: 10px;
+  z-index: 1000;
+  background-color: rgb(142, 56, 255);
+}
+
+/* DROPDOWN MENU */
+.dropdown-menu {
+  display: none;
+  transition: all 400ms ease;
+  transform: translate(0, 0);
+}
+
+.open {
+  width: 220px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgb(142, 56, 255);
+  transform: translate(100%, 0);
+  position: absolute;
+  top: 110px;
+  right: 250px;
+}
+
+.dropdown-menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+
+  .home-nav-socials,
+  .socials-comp {
+    display: none;
+  }
+
+  .socials img {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10;
+    margin-left: 55px;
+  }
+
+  .i-bars {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 85px 35px;
+  }
+
+  .open {
+    display: block;
+  }
+
+  ul.social-links-container {
+    justify-content: space-around;
+    margin-right: 40px;
+  }
+}
