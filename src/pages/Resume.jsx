@@ -97,9 +97,9 @@ export default function Resume() {
             <Section>
               <Title>Resume</Title>
               <Container>
-                <iframe src="https://docs.google.com/document/d/e/2PACX-1vSx5jmjA_jwmfGrVGTXz27sBzE0TaqoQ2l4Kt_6CvdUnika37qSiOr5XhefYv9TvRMi7vsVvrbbUgda/pub?embedded=true"></iframe>
+              <iframe src="https://docs.google.com/document/d/e/2PACX-1vSGgr1qFOgNfOUw4yiYWZmOhzZwx6KcmTRrm0a8Y3XnZZiVcb25u8p_fOMzbvY8qMaTCPmCvS7IoZZz/pub?embedded=true"></iframe>
                 <Content>
-                  <Button><a href="https://drive.google.com/file/d/1Dc6VfHMxdp5RbW5cUDefdo6RKCsGRcta/view?usp=drive_link" target="_blank">Download CV</a></Button>
+                  <Button><a href="https://docs.google.com/document/d/1X6sdweHNDeR5dREiGO4OFHETViZA028odhmHLAaShj0/edit?usp=sharing" target="_blank">Download CV</a></Button>
                   <Button><a rel="Home" href="/">Página Inicial</a></Button>
                 </Content>
               </Container>
