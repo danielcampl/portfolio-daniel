@@ -35,8 +35,8 @@ a {
 }
 
 iframe {
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
 }
 
 ion-icon {
@@ -53,11 +53,26 @@ ion-icon {
   &:hover {
     color: #f272be;
   }
+}
 
-  @media (max-width: 992px) {
-    ion-icon {
-      width: 26px;
-      height: 26px;
-    }
+/* RESPONSIVE DESIGN */
+@media (max-width: 468px) {
+  iframe {
+    width: 330px;
+    height: 460px;
+  }
+}
+
+@media (min-width: 469px) and (max-width: 768px) {
+  iframe {
+    width: 450px;
+    height: 560px;
+  }
+}
+
+@media (max-width: 992px) {
+  ion-icon {
+    width: 26px;
+    height: 26px;
   }
 }

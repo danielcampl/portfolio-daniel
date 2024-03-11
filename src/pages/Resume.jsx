@@ -12,6 +12,15 @@ const Section = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 100px;
+
+  @media (max-width: 468px) {
+    padding-top: 50px;
+  }
+
+  @media (min-width: 469px) and (max-width: 768px) {
+    padding-top: 30px;
+  }
 `;
 
 const Title = styled.h1`
@@ -19,6 +28,10 @@ const Title = styled.h1`
   font-size: 38px;
   font-family: 'Raleway', sans-serif;
   padding-bottom: 30px;
+
+  @media (max-width: 468px) {
+    font-size: 32px;
+  }
 `;
 
 const Button = styled.button`
@@ -36,6 +49,11 @@ const Button = styled.button`
     background-color: #da4ea2;
     box-shadow: 5px 5px 30px #da4ea2;
   }
+
+  @media (max-width: 468px) {
+    width: 190px;
+    padding: 15px;
+  }
 `;
 
 const Container = styled.div`
@@ -51,6 +69,10 @@ const Content = styled.div`
   align-items: center;
   justify-content: center;
   gap: 30px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 
