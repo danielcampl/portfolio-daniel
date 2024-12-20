@@ -18,7 +18,7 @@ export default function NavPages() {
               <ion-icon name="logo-github" />
             </div>
           </a>
-          <a href="https://www.instagram.com/danielcampl/" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/danielveirac/" target="_blank" rel="noreferrer">
             <div className="icon-container">
               <ion-icon name="logo-instagram"></ion-icon>
             </div>
