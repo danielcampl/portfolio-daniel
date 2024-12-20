@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <section className="home-navbar">
       <div className="home-nav-container">
-        <a href="#home" className="socials">
+        <a href="/" className="socials">
           <img src="./img/page/logo.png" />
         </a>
         <ul className="home-nav-socials">

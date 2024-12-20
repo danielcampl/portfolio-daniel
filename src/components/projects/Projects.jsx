@@ -47,7 +47,7 @@ export default function Projects() {
             ) : project === "Finance Manager" ? (
               <ProjectItems
                 sourceImage={"./img/projects/controle-financeiro.png"}
-                linkTo={'https://finance-dashboard-ebon.vercel.app'}
+                linkTo={'https://finance-dashboard-kappa-eight.vercel.app'}
                 repository={'https://github.com/danielcampl/finance-dashboard'}
               />
             ) : project === "Login Page" ? (
